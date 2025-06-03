@@ -17,6 +17,21 @@
   --nav-font: "Poppins",  sans-serif;
 }
 
+/* Color Palette - Inspired by Catpuccin */
+:root {
+    --base: #1e1e2e;
+    --surface: #313244;
+    --text: #cdd6f4;
+    --lavender: #b4befe;
+    --mauve: #cba6f7;
+    --blue: #89b4fa;
+    --sapphire: #74c7ec;
+    --teal: #94e2d5;
+    --green: #a6e3a1;
+    --sky: #89dceb;
+    --flamingo: #f2cdcd;
+}
+
 /* Global Colors - The following color variables are used throughout the website. Updating them here will change the color scheme of the entire website */
 :root { 
   --background-color: #ffffff; /* Background color for the entire website, including individual sections */
@@ -29,8 +44,8 @@
 
 /* Nav Menu Colors - The following color variables are used specifically for the navigation menu. They are separate from the global colors to allow for more customization options */
 :root {
-  --nav-color: #a8a9b4;  /* The default color of the main navmenu links */
-  --nav-hover-color: #ffffff; /* Applied to main navmenu links when they are hovered over or active */
+  --nav-color: #cba6f7;  /* The default color of the main navmenu links */
+  --nav-hover-color: #b4befe; /* Applied to main navmenu links when they are hovered over or active */
   --nav-mobile-background-color: #040b14; /* Used as the background color for mobile navigation menu */
   --nav-dropdown-background-color: #040b14; /* Used as the background color for dropdown items that appear when hovering over primary navigation items */
   --nav-dropdown-color: #a8a9b4; /* Used for navigation links of the dropdown items in the navigation menu. */
