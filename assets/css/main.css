@@ -34,37 +34,37 @@
 
 /* Global Colors - The following color variables are used throughout the website. Updating them here will change the color scheme of the entire website */
 :root { 
-  --background-color: --darkblue; /* Background color for the entire website, including individual sections */
-  --default-color: --mauve; /* Default color used for the majority of the text content across the entire website */
-  --heading-color: --mauve; /* Color for headings, subheadings and title throughout the website */
-  --accent-color: --sky; /* Accent color that represents your brand on the website. It's used for buttons, links, and other elements that need to stand out */
-  --surface-color: --softwhite; /* The surface color is used as a background of boxed elements within sections, such as cards, icon boxes, or other elements that require a visual separation from the global background. */
-  --contrast-color: --softwhite; /* Contrast color for text, ensuring readability against backgrounds of accent, heading, or default colors. */
+  --background-color: var(--darkblue); /* Background color for the entire website, including individual sections */
+  --default-color: var(--mauve); /* Default color used for the majority of the text content across the entire website */
+  --heading-color: var(--mauve); /* Color for headings, subheadings and title throughout the website */
+  --accent-color: var(--sky); /* Accent color that represents your brand on the website. It's used for buttons, links, and other elements that need to stand out */
+  --surface-color: var(--softwhite); /* The surface color is used as a background of boxed elements within sections, such as cards, icon boxes, or other elements that require a visual separation from the global background. */
+  --contrast-color: var(--softwhite); /* Contrast color for text, ensuring readability against backgrounds of accent, heading, or default colors. */
 }
 
 /* Nav Menu Colors - The following color variables are used specifically for the navigation menu. They are separate from the global colors to allow for more customization options */
 :root {
-  --nav-color: --mauve;  /* The default color of the main navmenu links */
-  --nav-hover-color: --green; /* Applied to main navmenu links when they are hovered over or active */
-  --nav-mobile-background-color: --darkblue; /* Used as the background color for mobile navigation menu */
-  --nav-dropdown-background-color: --softwhite; /* Used as the background color for dropdown items that appear when hovering over primary navigation items */
-  --nav-dropdown-color: --softgrey; /* Used for navigation links of the dropdown items in the navigation menu. */
-  --nav-dropdown-hover-color: --softwhite; /* Similar to --nav-hover-color, this color is applied to dropdown navigation links when they are hovered over. */
+  --nav-color: var(--mauve);  /* The default color of the main navmenu links */
+  --nav-hover-color: var(--green); /* Applied to main navmenu links when they are hovered over or active */
+  --nav-mobile-background-color: var(--darkblue); /* Used as the background color for mobile navigation menu */
+  --nav-dropdown-background-color: var(--softwhite); /* Used as the background color for dropdown items that appear when hovering over primary navigation items */
+  --nav-dropdown-color: var(--softgrey); /* Used for navigation links of the dropdown items in the navigation menu. */
+  --nav-dropdown-hover-color: var(--softwhite); /* Similar to --nav-hover-color, this color is applied to dropdown navigation links when they are hovered over. */
 }
 
 /* Color Presets - These classes override global colors when applied to any section or element, providing reuse of the sam color scheme. */
 
 .light-background {
-  --background-color: --sky;
-  --surface-color: --darkblue;
+  --background-color: var(--sky);
+  --surface-color: var(--darkblue);
 }
 
 .dark-background {
-  --background-color: --darkblue;
-  --default-color: --green;
-  --heading-color: --softwhite;
-  --surface-color: --softgrey;
-  --contrast-color: --softwhite;
+  --background-color: var(--darkblue);
+  --default-color: var(--green);
+  --heading-color: var(--softwhite);
+  --surface-color: var(--softgrey);
+  --contrast-color: var(--softwhite);
 }
 
 /* Smooth scroll */
