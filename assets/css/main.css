@@ -611,7 +611,7 @@ section,
 
 .hero p span {
   letter-spacing: 1px;
-  border-bottom: 2px solid var(--accent-color);
+  border-bottom: 2px solid var(--heading-color);
 }
 
 .hero .social-links {
@@ -644,7 +644,7 @@ section,
 /* Tweaking the cursor type in the hero */
 .hero .typed-cursor {
     display: inline-block;
-    width: 1ch;
+    width: 0.5ch;
     height: 1.2em;
     background-color: var(--accent-color);
     animation: blink 1s step-start infinite;
