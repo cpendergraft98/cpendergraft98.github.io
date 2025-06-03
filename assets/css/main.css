@@ -12,12 +12,12 @@
 --------------------------------------------------------------*/
 /* Fonts */
 :root {
-    /* These three were included with the template, but are mostly unused. Mono-font is used through most of the site */ 
+    /* These three were included with the template, but are unused. Mono-font is used through most of the site */ 
   --default-font: "Roboto",  system-ui, -apple-system, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", "Liberation Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
   --heading-font: "Raleway",  sans-serif;
   --nav-font: "Poppins",  sans-serif;
 
-  /* This is what is most used throughout the site */
+  /* This is what is used throughout the site */
   --mono-font: "Source Code Pro", monospace;
 }
 
@@ -621,7 +621,7 @@ section,
 .hero .social-links a {
   font-size: 24px;
   display: inline-block;
-  color: color-mix(in srgb, var(--default-color), transparent 50%);
+  color: color-mix(in srgb, var(--heading-color), transparent 50%);
   line-height: 1;
   margin-right: 20px;
   transition: 0.3s;
@@ -639,6 +639,23 @@ section,
   .hero p {
     font-size: 20px;
   }
+}
+
+/* Tweaking the cursor type in the hero */
+.hero .typed-cursor {
+    display: inline-block;
+    width: 1ch;
+    height: 1.2em;
+    background-color: var(--accent-color);
+    animation: blink 1s step-start infinite;
+    vertical-align: bottom;
+}
+
+/* Animation for the hero cursor */
+@keyframes blink {
+    50% {
+        opacity: 0;
+    }
 }
 
 /*--------------------------------------------------------------
