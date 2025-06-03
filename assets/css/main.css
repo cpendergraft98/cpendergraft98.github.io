@@ -641,7 +641,7 @@ section,
   }
 }
 
-/* Tweaking the cursor type in the hero */
+/*
 .hero .typed-cursor {
     display: inline-block;
     width: 0.5ch;
@@ -651,12 +651,12 @@ section,
     vertical-align: bottom;
 }
 
-/* Animation for the hero cursor */
 @keyframes blink {
     50% {
         opacity: 0;
     }
 }
+*/
 
 /*--------------------------------------------------------------
 # About Section
