@@ -19,7 +19,8 @@
 
 /* Color Palette - Inspired by Catpuccin */
 :root {
-    --darkblue: #1e1e2e;
+    --base: #1e1e2e;
+    --base-light: #363646;
     --softgrey: #313244;
     --softwhite: #cdd6f4;
     --lavender: #b4befe;
@@ -34,8 +35,8 @@
 
 /* Global Colors - The following color variables are used throughout the website. Updating them here will change the color scheme of the entire website */
 :root { 
-  --background-color: var(--darkblue); /* Background color for the entire website, including individual sections */
-  --default-color: var(--mauve); /* Default color used for the majority of the text content across the entire website */
+  --background-color: var(--base); /* Background color for the entire website, including individual sections */
+  --default-color: var(--softwhite); /* Default color used for the majority of the text content across the entire website */
   --heading-color: var(--mauve); /* Color for headings, subheadings and title throughout the website */
   --accent-color: var(--sky); /* Accent color that represents your brand on the website. It's used for buttons, links, and other elements that need to stand out */
   --surface-color: var(--softwhite); /* The surface color is used as a background of boxed elements within sections, such as cards, icon boxes, or other elements that require a visual separation from the global background. */
@@ -46,7 +47,7 @@
 :root {
   --nav-color: var(--mauve);  /* The default color of the main navmenu links */
   --nav-hover-color: var(--green); /* Applied to main navmenu links when they are hovered over or active */
-  --nav-mobile-background-color: var(--darkblue); /* Used as the background color for mobile navigation menu */
+  --nav-mobile-background-color: var(--base); /* Used as the background color for mobile navigation menu */
   --nav-dropdown-background-color: var(--softwhite); /* Used as the background color for dropdown items that appear when hovering over primary navigation items */
   --nav-dropdown-color: var(--softgrey); /* Used for navigation links of the dropdown items in the navigation menu. */
   --nav-dropdown-hover-color: var(--softwhite); /* Similar to --nav-hover-color, this color is applied to dropdown navigation links when they are hovered over. */
@@ -55,12 +56,12 @@
 /* Color Presets - These classes override global colors when applied to any section or element, providing reuse of the sam color scheme. */
 
 .light-background {
-  --background-color: var(--sky);
-  --surface-color: var(--darkblue);
+  --background-color: var(--base-light);
+  --surface-color: var(--base);
 }
 
 .dark-background {
-  --background-color: var(--darkblue);
+  --background-color: var(--base);
   --default-color: var(--green);
   --heading-color: var(--softwhite);
   --surface-color: var(--softgrey);
