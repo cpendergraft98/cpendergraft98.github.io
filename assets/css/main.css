@@ -23,12 +23,12 @@
     --base: #1e1e2e;
     --base-light: #313244;
     --mauve: #cba6f7;
-    --softwhite: #cdd6f4;
     --lavender: #b4befe;
-    --blue: #89b4fa;
-    --green: #a6e3a1;
 
+    --green: #a6e3a1;
+    --softwhite: #cdd6f4;
     --sapphire: #74c7ec;
+    --blue: #89b4fa;
     --teal: #94e2d5;
     --sky: #89dceb;
     --flamingo: #f2cdcd;
@@ -37,10 +37,10 @@
 /* Global Colors - The following color variables are used throughout the website. Updating them here will change the color scheme of the entire website */
 :root { 
   --background-color: var(--base); /* Background color for the entire website, including individual sections */
-  --default-color: var(--mauve); /* Default color used for the majority of the text content across the entire website */
-  --heading-color: var(--green); /* Color for headings, subheadings and title throughout the website */
-  --accent-color: var(--sapphire); /* Accent color that represents your brand on the website. It's used for buttons, links, and other elements that need to stand out */
-  --surface-color: var(--softgrey); /* The surface color is used as a background of boxed elements within sections, such as cards, icon boxes, or other elements that require a visual separation from the global background. */
+  --default-color: var(--lavender); /* Default color used for the majority of the text content across the entire website */
+  --heading-color: var(--mauve); /* Color for headings, subheadings and title throughout the website */
+  --accent-color: var(--flamingo); /* Accent color that represents your brand on the website. It's used for buttons, links, and other elements that need to stand out */
+  --surface-color: var(--base-light); /* The surface color is used as a background of boxed elements within sections, such as cards, icon boxes, or other elements that require a visual separation from the global background. */
   --contrast-color: var(--softwhite); /* Contrast color for text, ensuring readability against backgrounds of accent, heading, or default colors. */
 }
 
