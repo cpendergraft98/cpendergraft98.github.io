@@ -20,12 +20,14 @@
 
 /* Color Palette - Inspired by Catpuccin */
 :root {
+    /* In Use */
     --base: #1e1e2e;
     --base-light: #313244;
     --mauve: #cba6f7;
     --softwhite: #cdd6f4;
     --green: #a6e3a1;
 
+    /* Optional Extras */
     --lavender: #b4befe;
     --sapphire: #74c7ec;
     --blue: #89b4fa;
@@ -38,7 +40,7 @@
   --background-color: var(--base); /* Background color for the entire website, including individual sections */
   --default-color: var(--softwhite); /* Default color used for the majority of the text content across the entire website */
   --heading-color: var(--mauve); /* Color for headings, subheadings and title throughout the website */
-  --accent-color: var(--blue); /* Accent color that represents your brand on the website. It's used for buttons, links, and other elements that need to stand out */
+  --accent-color: var(--green); /* Accent color that represents your brand on the website. It's used for buttons, links, and other elements that need to stand out */
   --surface-color: var(--base-light); /* The surface color is used as a background of boxed elements within sections, such as cards, icon boxes, or other elements that require a visual separation from the global background. */
   --contrast-color: var(--softwhite); /* Contrast color for text, ensuring readability against backgrounds of accent, heading, or default colors. */
 }
@@ -66,7 +68,7 @@
   --background-color: var(--base);
   --default-color: var(--green);
   --heading-color: var(--softwhite);
-  --surface-color: var(--softgrey);
+  --surface-color: var(--base-light);
   --contrast-color: var(--softwhite);
 }
 
