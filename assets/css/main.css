@@ -12,9 +12,12 @@
 --------------------------------------------------------------*/
 /* Fonts */
 :root {
+    /* These three were included with the template, but are mostly unused. Mono-font is used through most of the site */ 
   --default-font: "Roboto",  system-ui, -apple-system, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", "Liberation Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
   --heading-font: "Raleway",  sans-serif;
   --nav-font: "Poppins",  sans-serif;
+
+  /* This is what is most used throughout the site */
   --mono-font: "Source Code Pro", monospace;
 }
 
@@ -27,7 +30,7 @@
     --softwhite: #cdd6f4;
     --green: #a6e3a1;
 
-    /* Optional Extras */
+    /* Unused Extras */
     --lavender: #b4befe;
     --sapphire: #74c7ec;
     --blue: #89b4fa;
