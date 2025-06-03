@@ -650,13 +650,11 @@ section,
     vertical-align: bottom;
 }
 
-/*
 @keyframes blink {
     50% {
         opacity: 0;
     }
 }
-*/
 
 /*--------------------------------------------------------------
 # About Section
