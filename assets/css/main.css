@@ -643,8 +643,8 @@ section,
 
 .hero .typed-cursor {
     display: inline-block;
-    width: 0.5ch;
-    height: 1.2em;
+    width: 1ch;
+    height: 1em;
     background-color: var(--accent-color);
     animation: blink 1s step-start infinite;
     vertical-align: bottom;
