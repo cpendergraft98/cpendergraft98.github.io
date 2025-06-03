@@ -611,7 +611,7 @@ section,
 
 .hero p span {
   letter-spacing: 1px;
-  border-bottom: 2px solid var(--accent-color);
+  border-bottom: 2px solid var(--default-color);
 }
 
 .hero .social-links {
@@ -634,7 +634,6 @@ section,
 @media (max-width: 768px) {
   .hero h2 {
     font-size: 32px;
-    color: var(--heading-color)
   }
 
   .hero p {
